@@ -1,0 +1,31 @@
+.dashboard-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .dashboard-table, .community-list {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .dashboard-table th, .dashboard-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .dashboard-table th {
+    background-color: #4A90E2;
+    color: white;
+  }
+  
+  .community-list li {
+    padding: 5px;
+    background-color: #f4f4f4;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  

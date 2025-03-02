@@ -1,0 +1,51 @@
+.community-forum-container {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+select, input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.create-community {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.create-btn {
+  background: #4caf50;
+  color: white;
+}
+
+.facebook-btn {
+  background: #1877f2;
+  color: white;
+  margin-top: 10px;
+}
+
+.popup {
+  background: #4caf50;
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.discussion-section {
+  text-align: left;
+}

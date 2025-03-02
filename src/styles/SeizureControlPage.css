@@ -1,0 +1,79 @@
+.seizure-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.seizure-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff9800; /* Orange theme */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.seizure-title i {
+  font-size: 24px;
+}
+
+.seizure-header {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ff9800;
+}
+
+.seizure-form input,
+.seizure-form select,
+.seizure-form textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.log-seizure-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.log-seizure-btn:hover {
+  background-color: #0056b3;
+}
+
+.past-seizure-logs {
+  margin-top: 20px;
+}
+
+.log-card {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.log-item {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.log-item span {
+  font-weight: bold;
+}

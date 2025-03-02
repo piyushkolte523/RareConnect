@@ -1,0 +1,55 @@
+/* src/styles/SleepTrackerPage.css */
+
+.sleep-tracker-container {
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2, h3 {
+    color: #333;
+  }
+  
+  input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  canvas {
+    margin-top: 20px;
+    width: 100%;
+    max-height: 300px;
+  }
+  
+  .sleep-quality {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .sleep-quality strong {
+    color: #ff6347;
+  }
+  
